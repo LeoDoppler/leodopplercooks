@@ -1,0 +1,108 @@
+# Pages CMS – legt fest, was man unter app.pagescms.org bearbeiten kann
+media:
+  input: bilder
+  output: /bilder
+
+content:
+  - name: rezepte
+    label: Rezepte
+    type: file
+    path: daten/rezepte.json
+    format: json
+    list: true
+    fields:
+      - name: titel
+        label: Titel des Rezepts
+        type: string
+        required: true
+      - name: teaser
+        label: Teaser (2–3 Sätze)
+        type: text
+      - name: datum
+        label: Datum (das neueste Rezept erscheint ganz oben)
+        type: date
+      - name: bild
+        label: Foto (optional, sonst farbiges Poster)
+        type: image
+      - name: instagram
+        label: Link zum Instagram-Video (optional)
+        type: string
+      - name: hauptkategorie
+        label: Hauptkategorie
+        type: select
+        required: true
+        options:
+          values: [Österreichische Klassiker, Mediterrane Küche, Italienische Klassiker, Schnelle Küche]
+      - name: gang
+        label: Gang / Art
+        type: select
+        options:
+          values: [Suppen & Eintöpfe, Hauptgerichte, Desserts & Mehlspeisen, Salate & Vorspeisen, Snacks & Sandwiches]
+      - name: protein
+        label: Ernährungsform / Protein
+        type: select
+        options:
+          values: [Rind, Schwein, Geflügel, Fisch & Meeresfrüchte, Vegetarisch]
+      - name: zeitkategorie
+        label: Zubereitungszeit (für den Filter)
+        type: select
+        options:
+          values: [Unter 30 Min, 30–60 Min, Über 60 Min]
+      - name: zeit
+        label: Zeit genau (z. B. ca. 45 Min)
+        type: string
+      - name: schwierigkeit
+        label: Schwierigkeitsgrad
+        type: select
+        options:
+          values: [Einfach, Mittel, Anspruchsvoll]
+      - name: portionen
+        label: Portionen (z. B. 2 Personen)
+        type: string
+      - name: serie
+        label: Serie / Folge (z. B. Austrian Classics in under 60 seconds pt.17)
+        type: string
+      - name: zutaten
+        label: Zutaten
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: gruppe
+            label: Überschrift (z. B. Für die Sauce)
+            type: string
+          - name: liste
+            label: Zutaten mit Menge
+            type: string
+            list: true
+      - name: schritte
+        label: Zubereitung
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: titel
+            label: Überschrift des Schritts
+            type: string
+          - name: text
+            label: Beschreibung
+            type: text
+      - name: tipp
+        label: Leos Tipp
+        type: text
+
+  - name: einstellungen
+    label: Seiten-Texte & Impressum
+    type: file
+    path: daten/einstellungen.json
+    format: json
+    fields:
+      - { name: name, label: Name der Seite, type: string }
+      - { name: titelzeile, label: Große Überschrift auf der Startseite, type: string }
+      - { name: untertitel, label: Satz darunter, type: text }
+      - { name: ueber, label: Über Leo, type: text }
+      - { name: instagram_name, label: Instagram-Name (mit @), type: string }
+      - { name: instagram_url, label: Instagram-Link, type: string }
+      - { name: kontakt_email, label: Kontakt-E-Mail, type: string }
+      - { name: impressum, label: Impressum, type: text }
+      - { name: datenschutz, label: Datenschutz, type: text }
