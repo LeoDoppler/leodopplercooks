@@ -4,6 +4,7 @@
 const main = document.getElementById("inhalt");
 let REZEPTE = [];
 let EINST = {};
+let EVENTS = [];
 const F = { haupt: "Alle", gang: "", protein: "", zeit: "", q: "" };
 
 const HAUPT = ["Österreichische Klassiker", "Mediterrane Küche", "Italienische Klassiker", "Schnelle Küche"];
@@ -36,11 +37,13 @@ function datumText(d) {
 }
 
 /* ---------- Poster mit automatisch angepasster Schriftgröße ---------- */
-function poster(r, gross = false) {
+function poster(r, gross = false, scharf = false) {
   const b = bildPfad(r.bild);
-  if (b) return `<div class="poster" data-kat="${esc(r.hauptkategorie)}"><img src="${esc(b)}" alt="${esc(r.titel)}" loading="lazy"></div>`;
+  // Rezeptseite: Foto scharf und ohne Text
+  if (b && scharf) return `<div class="poster" data-kat="${esc(r.hauptkategorie)}"><img src="${esc(b)}" alt="${esc(r.titel)}"></div>`;
   const start = gross ? "5.2rem" : (r.titel.split(/\s+/).length > 4 ? "2.3rem" : "2.9rem");
-  return `<div class="poster" data-kat="${esc(r.hauptkategorie)}" aria-hidden="true">
+  return `<div class="poster${b ? " mit-foto" : ""}" data-kat="${esc(r.hauptkategorie)}" aria-hidden="true">
+      ${b ? `<img src="${esc(b)}" alt="">` : ""}
       <div class="poster-oben"><span>${esc(r.gang || "")}</span><span>${esc(r.zeit || "")}</span></div>
       <p class="poster-titel" style="--gr:${start}">${esc(r.titel)}</p>
     </div>`;
@@ -50,7 +53,7 @@ function passeTitelAn() {
     el.style.fontSize = "";
     const box = el.parentElement;
     let gr = parseFloat(getComputedStyle(el).fontSize), n = 0;
-    while ((el.scrollWidth > el.clientWidth + 1 || box.scrollHeight > box.clientHeight + 1) && gr > 11 && n++ < 60) {
+    while ((el.scrollWidth > el.clientWidth + 1 || el.offsetTop + el.offsetHeight > box.clientHeight + 1 || el.offsetTop < 40) && gr > 11 && n++ < 60) {
       gr *= 0.94; el.style.fontSize = gr + "px";
     }
   });
@@ -88,6 +91,59 @@ function passt(r) {
 
 const auswahl = (name, label, werte) =>
   `<label><span class="unsichtbar">${label}</span><select data-f="${name}"><option value="">${label}: alle</option>${werte.map((w) => `<option${F[name] === w ? " selected" : ""}>${esc(w)}</option>`).join("")}</select></label>`;
+
+/* ---------- Aktuelles & Termine ---------- */
+function heute() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function eventsGeteilt() {
+  const h = heute();
+  const kommend = EVENTS.filter((e) => e.datum && e.datum >= h).sort((a, b) => a.datum.localeCompare(b.datum));
+  const vergangen = EVENTS.filter((e) => !e.datum || e.datum < h).sort((a, b) => (b.datum || "").localeCompare(a.datum || ""));
+  return { kommend, vergangen };
+}
+function eventZeile(e) {
+  const dt = e.datum ? new Date(e.datum) : null;
+  const ok = dt && !isNaN(dt);
+  const tag = ok ? dt.getDate() : "";
+  const monat = ok ? dt.toLocaleDateString("de-AT", { month: "short" }).replace(".", "") : "";
+  const jahr = ok ? dt.getFullYear() : "";
+  const infos = [e.art, e.uhrzeit, e.ort].filter(Boolean).map(esc).join(" · ");
+  const bild = bildPfad(e.bild);
+  const galerie = (Array.isArray(e.galerie) ? e.galerie : []).filter(Boolean).map(bildPfad);
+  return `<li class="event${bild ? " mit-bild" : ""}">
+      <div class="event-datum" aria-hidden="true"><span class="event-tag">${tag}</span><span>${esc(monat)} ${jahr}</span></div>
+      <div class="event-text">
+        ${infos ? `<p class="event-infos">${infos}</p>` : ""}
+        <h3>${esc(e.titel)}</h3>
+        ${ok ? `<p class="unsichtbar">${datumText(e.datum)}</p>` : ""}
+        ${e.text ? absaetze(e.text) : ""}
+        ${e.link ? `<a class="event-link" href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.link_text || "Mehr erfahren")} →</a>` : ""}
+        ${galerie.length ? `<div class="galerie">${galerie.map((g) => `<a href="${esc(g)}" target="_blank" rel="noopener"><img src="${esc(g)}" alt="Eindruck: ${esc(e.titel)}" loading="lazy"></a>`).join("")}</div>` : ""}
+      </div>
+      ${bild ? `<img class="event-bild" src="${esc(bild)}" alt="">` : ""}
+    </li>`;
+}
+function eventsBlock(maxVergangen) {
+  const { kommend, vergangen } = eventsGeteilt();
+  if (!kommend.length && !vergangen.length) return "";
+  const v = maxVergangen ? vergangen.slice(0, maxVergangen) : vergangen;
+  return `
+    ${kommend.length ? `<h3 class="event-gruppe">Demnächst</h3><ul class="events">${kommend.map(eventZeile).join("")}</ul>` : ""}
+    ${v.length ? `<h3 class="event-gruppe">Aktuelles</h3><ul class="events">${v.map(eventZeile).join("")}</ul>` : ""}
+    ${maxVergangen && vergangen.length > maxVergangen ? `<a class="knopf knopf-leise" href="#/aktuelles">Alles anzeigen</a>` : ""}`;
+}
+
+function seiteAktuelles() {
+  const inhalt = eventsBlock(0);
+  main.innerHTML = `<div class="abschnitt">
+      <h1 class="abschnitt-titel">Aktuelles &amp; Termine</h1>
+      ${inhalt || `<p class="leer">Gerade gibt es keine Neuigkeiten. Schau bald wieder vorbei oder folge Leo auf Instagram.</p>`}
+    </div>`;
+  document.title = `Aktuelles – ${EINST.name || "Leo Doppler cooks"}`;
+  window.scrollTo(0, 0);
+}
 
 /* ---------- Seiten ---------- */
 function seiteStart(scrollZu) {
@@ -128,10 +184,17 @@ function seiteStart(scrollZu) {
       <div class="raster"></div>
     </section>
 
+    ${EVENTS.length ? `<section class="abschnitt" id="aktuelles" aria-labelledby="akt-titel">
+      <h2 class="abschnitt-titel" id="akt-titel">Aktuelles &amp; Termine</h2>
+      ${eventsBlock(3)}
+    </section>` : ""}
+
     <section class="ueber" id="ueber" aria-labelledby="ueber-titel">
-      <div class="abschnitt ueber-innen">
-        <h2 class="abschnitt-titel" id="ueber-titel">Über Leo</h2>
-        <div>${absaetze(EINST.ueber)}
+      <div class="abschnitt ueber-innen${EINST.foto ? " mit-foto" : ""}">
+        ${EINST.foto ? `<img class="ueber-foto" src="${esc(bildPfad(EINST.foto))}" alt="Leo Doppler">` : ""}
+        <div>
+          <h2 class="abschnitt-titel" id="ueber-titel">Über Leo</h2>
+          ${absaetze(EINST.ueber)}
           <div class="knoepfe">
             <a class="knopf" href="${esc(EINST.instagram_url || "#")}" target="_blank" rel="noopener">${esc(EINST.instagram_name || "Instagram")} folgen</a>
             ${EINST.kontakt_email ? `<a class="knopf knopf-leise" href="mailto:${esc(EINST.kontakt_email)}">Für Kooperationen</a>` : ""}
@@ -194,7 +257,7 @@ function seiteRezept(slug) {
           </div>
           ${r.serie ? `<p class="serie">${esc(r.serie)}${r.datum ? `, ${datumText(r.datum)}` : ""}</p>` : ""}
         </div>
-        ${poster(r, true)}
+        ${poster(r, true, true)}
       </header>
 
       <div class="rezept-koerper">
@@ -233,6 +296,7 @@ function route() {
   const h = location.hash.replace(/^#\/?/, "");
   if (h.startsWith("rezept/")) seiteRezept(decodeURIComponent(h.slice(7)));
   else if (h === "impressum") seiteImpressum();
+  else if (h === "aktuelles") seiteAktuelles();
   else if (h === "ueber" || h === "rezepte") seiteStart(h);
   else seiteStart();
 }
@@ -244,6 +308,10 @@ async function start() {
       fetch("daten/einstellungen.json", { cache: "no-cache" }).then((r) => r.json()),
     ]);
     EINST = es || {};
+    try {
+      const ev = await fetch("daten/events.json", { cache: "no-cache" }).then((r) => r.json());
+      EVENTS = (Array.isArray(ev) ? ev : []).filter((e) => e && e.titel);
+    } catch (e) { EVENTS = []; }
     // Rezepte mit Datum zuerst (neueste oben), danach die ohne Datum in Datei-Reihenfolge
     const liste = (rz || []).filter((r) => r && r.titel).map((r, i) => ({ ...r, _i: i }));
     liste.sort((a, b) => (a.datum && b.datum ? b.datum.localeCompare(a.datum) : a.datum ? -1 : b.datum ? 1 : a._i - b._i));
