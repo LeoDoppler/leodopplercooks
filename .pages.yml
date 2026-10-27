@@ -1,4 +1,3 @@
-# Pages CMS – legt fest, was man unter app.pagescms.org bearbeiten kann
 media:
   input: bilder
   output: /bilder
@@ -91,6 +90,45 @@ content:
         label: Leos Tipp
         type: text
 
+  - name: events
+    label: Aktuelles & Termine
+    type: file
+    path: daten/events.json
+    format: json
+    list: true
+    fields:
+      - name: titel
+        label: Titel
+        type: string
+        required: true
+      - name: datum
+        label: Datum (liegt es in der Zukunft, steht es unter „Demnächst“)
+        type: date
+        required: true
+      - name: art
+        label: Art
+        type: select
+        options:
+          values: [Event, Kochkurs, TV, Kooperation, News]
+      - name: uhrzeit
+        label: Uhrzeit (optional, z. B. 18:00 Uhr)
+        type: string
+      - name: ort
+        label: Ort (optional)
+        type: string
+      - name: text
+        label: Beschreibung
+        type: text
+      - name: link
+        label: Link (optional, z. B. Tickets oder Instagram-Post)
+        type: string
+      - name: link_text
+        label: Text für den Link (optional, z. B. Tickets sichern)
+        type: string
+      - name: bild
+        label: Bild (optional)
+        type: image
+
   - name: einstellungen
     label: Seiten-Texte & Impressum
     type: file
@@ -101,6 +139,7 @@ content:
       - { name: titelzeile, label: Große Überschrift auf der Startseite, type: string }
       - { name: untertitel, label: Satz darunter, type: text }
       - { name: ueber, label: Über Leo, type: text }
+      - { name: foto, label: Foto von Leo (Hochformat), type: image }
       - { name: instagram_name, label: Instagram-Name (mit @), type: string }
       - { name: instagram_url, label: Instagram-Link, type: string }
       - { name: kontakt_email, label: Kontakt-E-Mail, type: string }
