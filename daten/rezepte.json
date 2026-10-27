@@ -2,6 +2,8 @@
   {
     "titel": "Vanillerostbraten mit knusprigen Erdäpfeln",
     "teaser": "Wiener Schmäh auf dem Teller: „Vanille“ steht hier für Knoblauch, und davon gibt’s reichlich. Langsam geschmort, mit glänzender Teriyaki-Knoblauch-Sauce und hauchdünnen, knusprigen Erdäpfeln.",
+    "datum": "2026-10-27",
+    "bild": "/bilder/tempImagepiIW9R.jpg",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Rind",
@@ -10,9 +12,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.16",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Rostbraten",
@@ -73,6 +72,8 @@
   {
     "titel": "Hühnerfrikassee mit Kapern & Erbsen",
     "teaser": "Zartes Huhn in cremiger Sauce, mit Speck, Champignons und ein paar Kapern für den Frische-Kick. Ein Klassiker, der einfach immer geht.",
+    "datum": "2026-10-27",
+    "bild": "/bilder/IMG_1496.jpeg",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Geflügel",
@@ -81,9 +82,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Chicken Classics in under 60 seconds pt.2",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Frikassee",
@@ -137,6 +135,8 @@
   {
     "titel": "Schwammerlsuppe mit knusprigem Panko-Ei",
     "teaser": "Samtige Pilzsuppe mit Eierschwammerl und Steinpilz-Aroma, dazu ein wachsweiches Ei im Panko-Mantel. Herbst in der Schüssel.",
+    "datum": "2026-10-27",
+    "bild": "/bilder/IMG_1497.jpeg",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Suppen & Eintöpfe",
     "protein": "Vegetarisch",
@@ -145,9 +145,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.16",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Suppe",
@@ -208,6 +205,8 @@
   {
     "titel": "Club Sandwich mit Hausmayo",
     "teaser": "Knuspriger Speck, saftiges Huhn, Spiegelei und eine selbst gerührte Cocktailsauce. Ein Sandwich, das man mit beiden Händen essen muss.",
+    "datum": "2026-10-27",
+    "bild": "/bilder/IMG_1498.jpeg",
     "hauptkategorie": "Schnelle Küche",
     "gang": "Snacks & Sandwiches",
     "protein": "Geflügel",
@@ -216,9 +215,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "1 Person",
     "serie": "Chicken Classics in under 60 seconds pt.1 (#schnelleküche)",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Belag",
@@ -270,6 +266,7 @@
   {
     "titel": "Paprikahendl mit Tarhonya",
     "teaser": "Österreichisch-ungarische Wohlfühlküche: Huhn in samtiger Paprika-Rahmsauce, dazu Tarhonya, die kleinen Eiernudel-Graupen, wie ein Risotto gekocht.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Geflügel",
@@ -278,9 +275,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.16",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Paprikahendl",
@@ -332,6 +326,7 @@
   {
     "titel": "Topfenhaluska mit Speck",
     "teaser": "Fleckerl, Sauerrahm, Bröseltopfen und viel knuspriger Speck. Ein burgenländischer Klassiker, schnell gemacht und ehrlich gut.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -340,9 +335,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.15",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -375,6 +367,7 @@
   {
     "titel": "Kaspressknödel mit Paradeisersalat",
     "teaser": "Würziger Bergkäse, knusprig in Butter gebraten, dazu ein frischer Paradeisersalat mit Kürbiskernöl. Hüttenküche für zuhause.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Vegetarisch",
@@ -383,9 +376,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.15",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Knödel",
@@ -444,6 +434,7 @@
   {
     "titel": "Buchteln mit Vanillesauce",
     "teaser": "Flaumige Germbuchteln, gefüllt mit Marmelade, dicht an dicht gebacken und mit warmer Vanillesauce übergossen. Mehlspeisen-Glück pur.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Desserts & Mehlspeisen",
     "protein": "Vegetarisch",
@@ -452,9 +443,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "12 Stück",
     "serie": "Austrian Classics in under 60 seconds pt.14",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Teig",
@@ -511,6 +499,7 @@
   {
     "titel": "Kürbiscremesuppe mit Knusper-Kürbis",
     "teaser": "Cremig, samtig, herbstlich, und obendrauf hauchdünner Kürbis in Kürbiskern-Panko frittiert. Mit Kernöl ein Stück Steiermark.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Suppen & Eintöpfe",
     "protein": "Vegetarisch",
@@ -519,9 +508,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.13",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Suppe",
@@ -577,6 +563,7 @@
   {
     "titel": "Moosbeernockerl",
     "teaser": "Ein Pinzgauer Sommerklassiker: wilde Heidelbeeren in einem hauchdünnen Teig, in Butter herausgebacken. Außen knusprig, innen fruchtig.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Desserts & Mehlspeisen",
     "protein": "Vegetarisch",
@@ -585,9 +572,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.12",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -621,6 +605,7 @@
   {
     "titel": "Eierschwammerlgulasch mit Butterbrot",
     "teaser": "Eierschwammerl in einer cremigen Paprika-Rahmsauce, dazu geröstetes Sauerteigbrot. Ein Sommergericht, das nach Wald schmeckt.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Vegetarisch",
@@ -629,9 +614,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Gulasch",
@@ -681,6 +663,7 @@
   {
     "titel": "Spaghetti al nero di Seppia",
     "teaser": "Tiefschwarze Spaghetti mit Sepiatinte, zarten Tintenfischringen und frischer Zitrone. Sieht spektakulär aus, schmeckt nach Meer.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Italienische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Fisch & Meeresfrüchte",
@@ -689,9 +672,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Italian Classics in under 60 seconds pt.1",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -732,6 +712,7 @@
   {
     "titel": "Geröstete Kalbsleber mit Majoran-Erdäpfeln",
     "teaser": "Zarte Kalbsleber, innen rosa, in einem Zwiebelsud mit Balsamico und frischem Majoran. Wiener Beislküche in Bestform.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Rind",
@@ -740,9 +721,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.12",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Leber",
@@ -791,6 +769,7 @@
   {
     "titel": "Powidltascherl in Butterbröseln",
     "teaser": "Ein böhmisches Erbe der Wiener Küche: zarter Erdäpfelteig, gefüllt mit Powidl und in süßen Butterbröseln gewälzt.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Desserts & Mehlspeisen",
     "protein": "Vegetarisch",
@@ -799,9 +778,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.11",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Teig",
@@ -852,6 +828,7 @@
   {
     "titel": "Stosuppe mit Kümmel & Croutons",
     "teaser": "Eine säuerlich-cremige Erdäpfelsuppe aus Kärnten und der Steiermark, mit geröstetem Kümmel. Simpel, aber mit Tiefgang.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Suppen & Eintöpfe",
     "protein": "Vegetarisch",
@@ -860,9 +837,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.10",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Suppe",
@@ -911,6 +885,7 @@
   {
     "titel": "Naturschnitzel mit Risipisi",
     "teaser": "Das Schnitzel ohne Panier: zart, in Butter-Kräutersauce geschwenkt, mit Risipisi (Reis mit Erbsen). Dazu, ganz wienerisch, Ketchup und Senf.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -919,9 +894,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.9",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Schnitzel",
@@ -977,6 +949,7 @@
   {
     "titel": "Rindfleischsalat mit Kernöl",
     "teaser": "Weich gekochtes Rindfleisch, knackiges Gemüse, ein weiches Ei und ein großzügiger Schuss Kürbiskernöl. Die Jause, die satt und glücklich macht.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Salate & Vorspeisen",
     "protein": "Rind",
@@ -985,9 +958,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.8",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für Fleisch & Suppe",
@@ -1047,6 +1017,7 @@
   {
     "titel": "Panino con Serrano & Pfirsich",
     "teaser": "Ibiza zum Mitnehmen: Serrano, gezupfter Mozzarella und reifer Pfirsich im knusprigen Baguette. Süß, salzig, sommerlich.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Snacks & Sandwiches",
     "protein": "Schwein",
@@ -1055,9 +1026,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Mediterranean Classics: Ibiza Edition pt.4",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -1091,6 +1059,7 @@
   {
     "titel": "Hascheehörnchen mit Häuptelsalat",
     "teaser": "Österreichs Antwort auf Bolognese: Faschiertes, lang geschmort, mit Hörnchen vermischt. Dazu ein knackiger Häuptelsalat. Kindheit auf dem Teller.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Rind",
@@ -1099,9 +1068,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.7",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Haschee",
@@ -1156,6 +1122,7 @@
   {
     "titel": "Geschmorte mediterrane Putenkeule",
     "teaser": "Drei Stunden im Ofen, und die Putenkeule fällt fast vom Knochen. Mit Guanciale, Oliven, Rosmarin und einer Sauce, für die man Brot braucht.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Hauptgerichte",
     "protein": "Geflügel",
@@ -1164,9 +1131,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Mediterranean Classics in under 60 seconds pt.3",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -1210,6 +1174,7 @@
   {
     "titel": "Eispalatschinken mit Marillenmarmelade",
     "teaser": "Warme Palatschinken, Marillenmarmelade und eine Kugel Schokoladeneis, eingerollt wie ein Wrap. Heiß trifft kalt.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Desserts & Mehlspeisen",
     "protein": "Vegetarisch",
@@ -1218,9 +1183,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Stück",
     "serie": "Austrian Classics in under 60 seconds pt.6",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Teig",
@@ -1260,6 +1222,7 @@
   {
     "titel": "Zwiebelrostbraten mit Erdäpfelpüree",
     "teaser": "Der Wiener Klassiker schlechthin: rosa gebratener Rostbraten, kräftige Zwiebelsauce, knusprige Röstzwiebeln und cremiges Püree.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Rind",
@@ -1268,9 +1231,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.5",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Fleisch",
@@ -1332,6 +1292,7 @@
   {
     "titel": "Mediterraner Pasta-Salat mit Pesto",
     "teaser": "Gebratene Zucchini, Artischocken, Bohnen und Rucola, alles in frischem Pesto geschüttelt. Der Salat für Picknick, Grillabend und Mittagspause.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Salate & Vorspeisen",
     "protein": "Vegetarisch",
@@ -1340,9 +1301,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Mediterranean Classics pt.3",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Salat",
@@ -1399,6 +1357,7 @@
   {
     "titel": "Szegediner Gulasch",
     "teaser": "Zartes Schweinefleisch und Sauerkraut in Paprikasauce, mit Sauerrahm gebunden. Auf Ungarisch Székelykáposzta, in Wien ein Beisl-Liebling.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Suppen & Eintöpfe",
     "protein": "Schwein",
@@ -1407,9 +1366,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics pt.4",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -1453,6 +1409,7 @@
   {
     "titel": "Paella mit Meeresfrüchten, Huhn & Aioli",
     "teaser": "Huhn, Chorizo, Calamari und Gambas auf goldenem Safranreis, dazu eine schnelle Aioli. Spanischer Sommer aus einer Pfanne.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Hauptgerichte",
     "protein": "Fisch & Meeresfrüchte",
@@ -1461,9 +1418,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "4 Personen",
     "serie": "Mediterranean Classics pt.2 (#schnelleküche)",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Paella",
@@ -1519,6 +1473,7 @@
   {
     "titel": "Feuerfleck",
     "teaser": "Dünne, blasige Brotfladen aus der Pfanne, wie früher aus dem Holzofen. Die perfekte Basis für Schmalz, Knoblauch oder Sauerrahm.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Snacks & Sandwiches",
     "protein": "Vegetarisch",
@@ -1527,9 +1482,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "6 Fladen",
     "serie": "Austrian Classics in under 60 seconds pt.4",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -1557,6 +1509,7 @@
   {
     "titel": "Gefüllte Paprika in Paradeisersauce",
     "teaser": "Paprika, prall gefüllt mit Faschiertem und Salsiccia, weich geschmort in seidiger Paradeisersauce. Ein Sonntagsessen wie bei Oma.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -1565,9 +1518,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "4 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.3",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Füllung",
@@ -1619,6 +1569,7 @@
   {
     "titel": "Eiernockerl mit Röstzwiebeln & Vogerlsalat",
     "teaser": "Butterige Nockerl, mit Ei gestockt, mit knusprigen Röstzwiebeln getoppt und frischem Vogerlsalat daneben. Simpel und unschlagbar.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Vegetarisch",
@@ -1627,9 +1578,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.2",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für die Nockerl",
@@ -1691,6 +1639,7 @@
   {
     "titel": "Schinkenfleckerl",
     "teaser": "Die schnelle Version vom Klassiker: Lasagneblätter als Fleckerl, mit Schinken, Frühlingszwiebeln und Sauerrahm. In 20 Minuten am Tisch.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -1699,9 +1648,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Austrian Classics in under 60 seconds pt.1",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
@@ -1735,6 +1681,7 @@
   {
     "titel": "Pochierter Seeteufel mit Roter Rübe & Ricotta",
     "teaser": "Fine Dining für zuhause: butterzarter Seeteufel auf cremigem Ricotta, mit glasierter Roter Rübe und ihrem eigenen Grün. Farbe, die man schmeckt.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Hauptgerichte",
     "protein": "Fisch & Meeresfrüchte",
@@ -1743,9 +1690,6 @@
     "schwierigkeit": "Anspruchsvoll",
     "portionen": "2 Personen",
     "serie": "Fish / Seafood / Fine Dining",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für Fisch & Rüben",
@@ -1790,6 +1734,7 @@
   {
     "titel": "Pappardelle mit scharfer Salsiccia & Artischocken",
     "teaser": "Hausgemachte Pappardelle, würzige Salsiccia, junge Artischocken und ein Schuss rauchiges Paprikaöl. Italien mit einem Funken Hitze.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Italienische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -1798,9 +1743,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "3 Personen",
     "serie": "Italian Classics / Pasta",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Pasta-Teig",
@@ -1856,6 +1798,7 @@
   {
     "titel": "Maishuhn mit Erbsenpüree & Kräuter-Salsa",
     "teaser": "Das Gericht, mit dem Leo den Tagessieg bei der Küchenschlacht geholt hat: knuspriges Maishuhn, seidiges Erbsenpüree und eine frische Kräuter-Salsa.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Mediterrane Küche",
     "gang": "Hauptgerichte",
     "protein": "Geflügel",
@@ -1864,9 +1807,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Küchenschlacht Tagessieg / Geflügel",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für das Huhn",
@@ -1929,6 +1869,7 @@
   {
     "titel": "Spargelrisotto mit Burnt Leek & Haselnüssen",
     "teaser": "Cremiges Spargelrisotto mit rauchig verkohltem Lauch, gerösteten Haselnüssen und einem Hauch Zitrone. Ein Küchenschlacht-Teller zum Nachkochen.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Italienische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Vegetarisch",
@@ -1937,9 +1878,6 @@
     "schwierigkeit": "Mittel",
     "portionen": "2 Personen",
     "serie": "Küchenschlacht / Risotto",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Für den Burnt Leek",
@@ -1993,6 +1931,7 @@
   {
     "titel": "Sarde in Saor auf Butterbrot",
     "teaser": "Ein venezianischer Klassiker in der Schnellversion: Sardinen mit süß-sauren Zwiebeln, Rosinen und Pinienkernen auf knusprigem Butterbrot.",
+    "datum": "2026-10-27",
     "hauptkategorie": "Italienische Klassiker",
     "gang": "Salate & Vorspeisen",
     "protein": "Fisch & Meeresfrüchte",
@@ -2001,9 +1940,6 @@
     "schwierigkeit": "Einfach",
     "portionen": "2 Personen",
     "serie": "Mediterranean Classics / Vorspeisen & Snacks",
-    "datum": "",
-    "bild": "",
-    "instagram": "",
     "zutaten": [
       {
         "gruppe": "Zutaten",
