@@ -92,6 +92,33 @@ function passt(r) {
 const auswahl = (name, label, werte) =>
   `<label><span class="unsichtbar">${label}</span><select data-f="${name}"><option value="">${label}: alle</option>${werte.map((w) => `<option${F[name] === w ? " selected" : ""}>${esc(w)}</option>`).join("")}</select></label>`;
 
+/* ---------- Instagram-Video (lädt erst nach Klick, DSGVO) ---------- */
+function instaEmbed(link) {
+  const m = String(link || "").match(/instagram\.com\/(?:[\w.]+\/)?(reel|reels|p|tv)\/([A-Za-z0-9_-]+)/);
+  if (!m) return "";
+  const typ = m[1] === "p" ? "p" : m[1] === "tv" ? "tv" : "reel";
+  return `https://www.instagram.com/${typ}/${m[2]}/embed/`;
+}
+function videoBox(r, embed) {
+  const b = bildPfad(r.bild);
+  return `<div class="video-box" data-embed="${esc(embed)}">
+      ${b ? `<img src="${esc(b)}" alt="">` : ""}
+      <button class="video-start" type="button">
+        <span class="video-play" aria-hidden="true">▶</span>
+        <span class="video-label">Video ansehen</span>
+        <span class="video-hinweis">Beim Abspielen wird Instagram geladen.</span>
+      </button>
+    </div>`;
+}
+function videoAktivieren() {
+  main.querySelectorAll(".video-box").forEach((box) => {
+    box.querySelector(".video-start")?.addEventListener("click", () => {
+      box.classList.add("laeuft");
+      box.innerHTML = `<iframe src="${box.dataset.embed}" title="Instagram-Video" allowfullscreen loading="lazy" scrolling="no"></iframe>`;
+    });
+  });
+}
+
 /* ---------- Aktuelles & Termine ---------- */
 function heute() {
   const d = new Date();
@@ -257,7 +284,7 @@ function seiteRezept(slug) {
           </div>
           ${r.serie ? `<p class="serie">${esc(r.serie)}${r.datum ? `, ${datumText(r.datum)}` : ""}</p>` : ""}
         </div>
-        ${poster(r, true, true)}
+        ${instaEmbed(r.instagram) ? videoBox(r, instaEmbed(r.instagram)) : poster(r, true, true)}
       </header>
 
       <div class="rezept-koerper">
@@ -278,6 +305,7 @@ function seiteRezept(slug) {
       </section>` : ""}
     </article>`;
   passeTitelAn();
+  videoAktivieren();
   document.title = `${r.titel} – ${EINST.name || "Leo Doppler cooks"}`;
   window.scrollTo(0, 0);
 }
