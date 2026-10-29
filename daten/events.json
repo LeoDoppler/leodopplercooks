@@ -1,7 +1,16 @@
 [
   {
-    "titel": "weingut Doli Muf ",
+    "titel": "Next Generation Lunch am Weingut Dolimur",
     "datum": "2026-10-04",
-    "text": "Ein Abend voller guter Weine und gutem Essen: Gemeinsam mit meinen Freunden Zeno und Anna durfte ich am Weingut Dolimur kochen. Auf den Tellern: [Vorspeise], und zum Abschluss Schokoladenmousse mit karamellisierter Birne, Crumble und Karamell. Danke ans ganze Team vom Weingut Dolimur für diesen schönen Abend!"
+    "art": "Event",
+    "uhrzeit": "Sonntagmittag",
+    "ort": "Weingut Dolimur",
+    "text": "Premiere für ein neues Format: Beim ersten „Next Generation Lunch“ am Weingut Dolimur durfte ich gemeinsam mit meinem Freund Zeno Webhofer kochen. Anna Niepoort hat dazu ihre Lieblingsweine serviert. \n\nEin wunderschöner Sonntagmittag mit lieben Menschen, gesetzten Menü und zum Abschluss gab’s Schokoladenmousse mit karamellisierter Birne und Crumble.\n\nDanke an Doli, dass wir das bei dir machen durften!",
+    "link": "https://www.instagram.com/reel/Degwpi-ozdN/?srtk=ZDQxdzM3eWlwYnNp",
+    "bild": "/bilder/IMG_7099-1.jpg",
+    "galerie": [
+      "/bilder/IMG_0894-2.jpeg",
+      "/bilder/IMG_0911-1.jpeg"
+    ]
   }
 ]
