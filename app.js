@@ -65,7 +65,7 @@ document.fonts && document.fonts.ready.then(passeTitelAn);
 function kachel(r) {
   return `<a class="kachel" href="#/rezept/${r.slug}">
       ${poster(r)}
-      <div class="kachel-text"><strong>${esc(r.titel)}</strong><span>${esc(r.hauptkategorie)}</span></div>
+      <div class="kachel-text"><strong>${esc(r.titel)}</strong><span>${r.werbung ? `<b class="werbung-mini">Werbung</b> ` : ""}${esc(r.hauptkategorie)}</span></div>
     </a>`;
 }
 
@@ -224,7 +224,7 @@ function seiteStart(scrollZu) {
           ${absaetze(EINST.ueber)}
           <div class="knoepfe">
             <a class="knopf" href="${esc(EINST.instagram_url || "#")}" target="_blank" rel="noopener">${esc(EINST.instagram_name || "Instagram")} folgen</a>
-            ${EINST.kontakt_email ? `<a class="knopf knopf-leise" href="mailto:${esc(EINST.kontakt_email)}">Für Kooperationen</a>` : ""}
+            ${(EINST.kooperation_email || EINST.kontakt_email) ? `<a class="knopf knopf-leise" href="mailto:${esc(EINST.kooperation_email || EINST.kontakt_email)}">Für Kooperationen</a>` : ""}
           </div>
         </div>
       </div>
@@ -270,6 +270,7 @@ function seiteRezept(slug) {
       <a class="zurueck" href="#/rezepte">← Alle Rezepte</a>
       <header class="rezept-kopf">
         <div>
+          ${r.werbung ? `<p class="werbung">${esc(r.werbung)}</p>` : ""}
           <ul class="tags">${tags.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
           <h1>${esc(r.titel)}</h1>
           ${r.teaser ? `<p class="teaser">${verlinke(esc(r.teaser))}</p>` : ""}
@@ -320,6 +321,26 @@ function seiteImpressum() {
   window.scrollTo(0, 0);
 }
 
+/* ---------- Statistik mit Umami (ohne Cookies) ---------- */
+let statistikBereit = false;
+function statistikLaden() {
+  const id = (EINST.umami_id || "").trim();
+  if (!id) return;
+  const sc = document.createElement("script");
+  sc.src = "https://cloud.umami.is/script.js";
+  sc.defer = true;
+  sc.dataset.websiteId = id;
+  sc.dataset.autoTrack = "false";
+  sc.onload = () => { statistikBereit = true; zaehle(); };
+  document.head.appendChild(sc);
+}
+function zaehle() {
+  if (!statistikBereit || !window.umami) return;
+  const h = location.hash.replace(/^#\/?/, "");
+  const pfad = "/" + h;
+  try { window.umami.track((p) => ({ ...p, url: pfad, title: document.title })); } catch (e) {}
+}
+
 function route() {
   const h = location.hash.replace(/^#\/?/, "");
   if (h.startsWith("rezept/")) seiteRezept(decodeURIComponent(h.slice(7)));
@@ -327,6 +348,7 @@ function route() {
   else if (h === "aktuelles") seiteAktuelles();
   else if (h === "ueber" || h === "rezepte") seiteStart(h);
   else seiteStart();
+  zaehle();
 }
 
 async function start() {
@@ -352,6 +374,7 @@ async function start() {
     });
     setLinks();
     route();
+    statistikLaden();
   } catch (e) {
     main.innerHTML = `<p class="laden">Die Rezepte konnten nicht geladen werden. Lade die Seite neu. Wenn du sie lokal als Datei geöffnet hast: Sie funktioniert erst online.</p>`;
     console.error(e);
