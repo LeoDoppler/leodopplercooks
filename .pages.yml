@@ -126,8 +126,12 @@ content:
         label: Text für den Link (optional, z. B. Tickets sichern)
         type: string
       - name: bild
-        label: Bild (optional)
+        label: Hauptbild (optional)
         type: image
+      - name: galerie
+        label: Weitere Bilder / Eindrücke (optional)
+        type: image
+        list: true
 
   - name: einstellungen
     label: Seiten-Texte & Impressum
@@ -142,6 +146,7 @@ content:
       - { name: foto, label: Foto von Leo (Hochformat), type: image }
       - { name: instagram_name, label: Instagram-Name (mit @), type: string }
       - { name: instagram_url, label: Instagram-Link, type: string }
-      - { name: kontakt_email, label: Kontakt-E-Mail, type: string }
+      - { name: kontakt_email, label: Kontakt-E-Mail (Menüpunkt „Kontakt“), type: string }
+      - { name: kooperation_email, label: E-Mail für Kooperationen (Knopf bei „Über Leo“), type: string }
       - { name: impressum, label: Impressum, type: text }
       - { name: datenschutz, label: Datenschutz, type: text }
