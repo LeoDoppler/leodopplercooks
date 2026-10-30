@@ -2040,5 +2040,75 @@
       }
     ],
     "tipp": "„Saor“ heißt sauer: Ein Schuss Weißweinessig zu den Zwiebeln bringt den klassischen venezianischen Geschmack."
+  },
+  {
+    "titel": "Butter, Anchovis und Kräuter fein mixen, in einen Spritzbeutel füllen und 20 Minuten kühl stellen.",
+    "teaser": "Das Innenfilet von der Hühnerbrust lösen. Mit einem schmalen Messer eine Tasche in die Brust stechen und mit der kalten Kräuterbutter füllen. Das Innenfilet dünn plattieren und wie ein Netz über die Öffnung legen, damit sie gut verschlossen ist.",
+    "datum": "2026-10-29",
+    "bild": "/bilder/IMG_7146-2.jpg",
+    "instagram": "https://www.instagram.com/reel/DfFdkQzosMP/?rpxt=amp5MGE5a3J4YzVy",
+    "hauptkategorie": "Schnelle Küche",
+    "gang": "Hauptgerichte",
+    "protein": "Geflügel",
+    "zeitkategorie": "30–60 Min",
+    "zeit": "ca 50 Min",
+    "schwierigkeit": "Mittel",
+    "portionen": "2 Personen",
+    "serie": "Chicken Classics pt.3",
+    "zutaten": [
+      {
+        "gruppe": "Für die Kräuterbutter",
+        "liste": [
+          "80 g weiche Butter",
+          "3 Sardellenfilets (Anchovis)",
+          "1 Handvoll Kräuter (z. B. Petersilie und Dille)",
+          "Salz und Pfeffer"
+        ]
+      },
+      {
+        "gruppe": "Für das Huhn",
+        "liste": [
+          "2 Hühnerbrüste mit Innenfilet",
+          "3 EL Mehl",
+          "2 Eier",
+          "100 g Semmelbrösel oder Panko",
+          "3 EL Öl",
+          "30 g Butter",
+          "Salz, Pfeffer"
+        ]
+      },
+      {
+        "gruppe": "Für das Püree",
+        "liste": [
+          "500 g mehlige Erdäpfel ",
+          "ca 100 ml Schlagobers (Sahne)",
+          "40 g Butter",
+          "Salz, Muskat"
+        ]
+      }
+    ],
+    "schritte": [
+      {
+        "titel": "Kräuterbutter",
+        "text": "Butter, Anchovis und Kräuter fein mixen, in einen Spritzbeutel füllen und 20 Minuten kühl stellen."
+      },
+      {
+        "titel": "Huhn füllen",
+        "text": "Das Innenfilet von der Hühnerbrust lösen. Mit einem schmalen Messer eine Tasche in die Brust stechen und mit der kalten Kräuterbutter füllen. Das Innenfilet dünn plattieren und wie ein Netz über die Öffnung legen, damit sie gut verschlossen ist."
+      },
+      {
+        "titel": "Panieren & braten",
+        "text": "Huhn salzen, pfeffern und in Mehl, verquirltem Ei und Bröseln panieren. In Butter und Öl bei niedriger Hitze rundum goldbraun braten, bis es innen durch ist.\n\nAlternativ scharf anbraten und bei 180 °C ca. 12 Minuten im Ofen fertig garen."
+      },
+      {
+        "titel": "Erdäpfelpüree",
+        "text": "Erdäpfel kochen oder im Ofen garen, durch die Presse drücken und mit warmem Schlagobers, Butter, Salz und Muskat cremig rühren."
+      },
+      {
+        "titel": "Anrichten",
+        "text": "Püree auf den Teller geben, das Chicken Kyiv daraufsetzen und erst am Tisch anschneiden."
+      }
+    ],
+    "tipp": "Die Butter muss richtig kalt sein, wenn sie ins Huhn kommt, und das Innenfilet muss die Öffnung komplett abdecken. Sonst läuft die Butter schon in der Pfanne aus statt erst auf dem Teller."
   }
 ]
