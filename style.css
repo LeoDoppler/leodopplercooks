@@ -100,7 +100,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 300; letter-spacing: -.01em
 .poster { position: relative; overflow: hidden; border-radius: 2px; background: var(--k-bg, var(--beige)); color: var(--k-fg, var(--tinte)); display: flex; flex-direction: column; justify-content: space-between; padding: clamp(1rem, 2.5vw, 1.5rem); container-type: inline-size; }
 .poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .poster.mit-foto { --k-bg: #2b2f36; --k-fg: #fffdf9; }
-.poster.mit-foto img { filter: blur(4px) brightness(.62) saturate(1.05); transform: scale(1.08); }
+.poster.mit-foto img { filter: blur(1.5px) brightness(.66) saturate(1.05); transform: scale(1.04); }
 .poster.mit-foto::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,20,22,.55), rgba(20,20,22,0) 60%); }
 .poster.mit-foto .poster-oben, .poster.mit-foto .poster-titel { position: relative; z-index: 1; color: #fffdf9; }
 .poster.mit-foto .poster-titel { text-shadow: 0 1px 12px rgba(0,0,0,.25); }
@@ -114,7 +114,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 300; letter-spacing: -.01em
 
 /* Video */
 .video-box { position: relative; aspect-ratio: 4 / 5; background: #2b2f36; overflow: hidden; border-radius: 2px; }
-.video-box img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(4px) brightness(.55); transform: scale(1.08); }
+.video-box img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(1.5px) brightness(.55); transform: scale(1.04); }
 .video-start { position: absolute; inset: 0; width: 100%; border: 0; background: transparent; color: #fffdf9; font: inherit; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .6rem; padding: 1.5rem; text-align: center; }
 .video-play { width: 4.5rem; height: 4.5rem; border-radius: 50%; border: 1px solid currentColor; display: grid; place-items: center; font-size: 1.4rem; padding-left: .25rem; transition: background .2s, color .2s; }
 .video-start:hover .video-play { background: #fffdf9; color: #2b2f36; }
