@@ -136,7 +136,7 @@
   },
   {
     "titel": "Schwammerlsuppe mit knusprigem Panko-Ei",
-    "teaser": "Samtige Pilzsuppe mit Eierschwammerl und Steinpilz-Aroma, dazu ein wachsweiches Ei im Panko-Mantel. Herbst in der Schüssel.",
+    "teaser": "Samtige Pilzsuppe mit Eierschwammerl und Steinpilz-Aroma, dazu ein wachsweiches Ei im Panko-Mantel.",
     "datum": "2026-10-18",
     "bild": "/bilder/IMG_1497.jpeg",
     "instagram": "https://www.instagram.com/reel/DeoE3ljona8/?vrfl=MXdyeDE3aDV5NXgxag==",
@@ -171,7 +171,8 @@
           "50 g Champignons",
           "1 kleiner Erdapfel",
           "½ Bund Schnittlauch",
-          "1 EL Butter"
+          "1 EL Butter",
+          "50g Eierschwammerl"
         ]
       },
       {
@@ -192,7 +193,7 @@
       },
       {
         "titel": "Einlage",
-        "text": "Zwiebel, Champignons und Erdapfel in feine Würfel schneiden, in Butter anbraten. Schnittlauch fein schneiden."
+        "text": "Zwiebel, Champignons, Eierschwammerl und Erdäpfel in feine Würfel schneiden, in Butter anbraten. Schnittlauch fein schneiden."
       },
       {
         "titel": "Panko-Ei",
@@ -206,7 +207,7 @@
     "tipp": "Ist das Ei sehr weich, einfach doppelt panieren. So hält es beim Ausbacken sicher zusammen."
   },
   {
-    "titel": "Club Sandwich mit Hausmayo",
+    "titel": "Club Sandwich",
     "teaser": "Knuspriger Speck, saftiges Huhn, Spiegelei und eine selbst gerührte Cocktailsauce. Ein Sandwich, das man mit beiden Händen essen muss.",
     "datum": "2026-10-14",
     "bild": "/bilder/IMG_1498.jpeg",
@@ -265,11 +266,11 @@
         "text": "Toast in Butter goldbraun anbraten. Tomate in Scheiben schneiden. Brot mit Sauce bestreichen und mit Salat, Tomate, Huhn, Speck und Ei schichten. Diagonal halbieren."
       }
     ],
-    "tipp": "Die restliche Mayonnaise hält im Kühlschrank zwei bis drei Tage und passt zu fast allem."
+    "tipp": "Das Spiegelei sollte nicht zu weich sein, sonst wird das ganze Sandwich zu letschert"
   },
   {
     "titel": "Paprikahendl mit Tarhonya",
-    "teaser": "Österreichisch-ungarische Wohlfühlküche: Huhn in samtiger Paprika-Rahmsauce, dazu Tarhonya, die kleinen Eiernudel-Graupen, wie ein Risotto gekocht.",
+    "teaser": "Österreichisches Wohlfühlgericht: Huhn in  Paprika-Rahmsauce geschmort, dazu Tarhonya.",
     "datum": "2026-10-11",
     "bild": "/bilder/IMG_7026.jpg",
     "instagram": "https://www.instagram.com/reel/DeWEi_nIaAT/?vrfl=NzJreHF1OWJ0NTNl",
