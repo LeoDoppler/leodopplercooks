@@ -2111,5 +2111,71 @@
       }
     ],
     "tipp": "Die Butter muss richtig kalt sein, wenn sie ins Huhn kommt, und das Innenfilet muss die Öffnung komplett abdecken. Sonst läuft die Butter schon in der Pfanne aus statt erst auf dem Teller."
+  },
+  {
+    "titel": "Topfenmousse mit Himbeersauce & Butterkeks-Crumble",
+    "teaser": "Luftig, frisch und gar nicht schwer: cremiger Topfenmousse mit Vanille, dazu eine fruchtige Himbeersauce und knuspriger Butterkeks-Haselnuss-Crumble.",
+    "datum": "2026-11-02",
+    "bild": "/bilder/IMG_1600.jpeg",
+    "instagram": "https://www.instagram.com/reel/DfMUEw8ICYv/?cplk=ZmlydzdlZWh5c2U2",
+    "hauptkategorie": "Österreichische Klassiker",
+    "gang": "Desserts & Mehlspeisen",
+    "protein": "Vegetarisch",
+    "zeitkategorie": "Über 60 Min",
+    "zeit": "ca. 30 Min + 4–5 Std. Kühlzeit",
+    "schwierigkeit": "Einfach",
+    "portionen": "4 Personen",
+    "serie": "Austrian Classics in under 60 seconds pt.17",
+    "zutaten": [
+      {
+        "gruppe": "Für die Topfenmousse",
+        "liste": [
+          "250 g Qimiq (gekühlt)",
+          "60 g Staubzucker (Puderzucker)",
+          "Mark von ½ Vanilleschote oder 1 Pkg Vanillezucker",
+          "250 g Topfen (Quark)",
+          "200 ml Schlagobers (Sahne)"
+        ]
+      },
+      {
+        "gruppe": "Für die Himbeersauce",
+        "liste": [
+          "300 g Himbeeren (frisch oder TK)",
+          "50 g Zucker",
+          "50 ml Wasser",
+          "½ Vanilleschote"
+        ]
+      },
+      {
+        "gruppe": "Für den Crumble",
+        "liste": [
+          "60 g Butterkekse",
+          "30 g Haselnüsse, geröstet"
+        ]
+      }
+    ],
+    "schritte": [
+      {
+        "titel": "Topfenmasse",
+        "text": "Qimiq cremig rühren, Staubzucker und Vanille unterrühren. Dann den Topfen dazugeben und glatt verrühren."
+      },
+      {
+        "titel": "Mousse",
+        "text": "Schlagobers cremig aufschlagen und vorsichtig unter die Topfenmasse heben. Mindestens 4–5 Stunden kalt stellen, damit die Mousse schön fest wird."
+      },
+      {
+        "titel": "Himbeersauce",
+        "text": "Himbeeren mit Zucker, Wasser und der aufgeschnittenen Vanilleschote aufkochen. Vanilleschote entfernen, Himbeeren pürieren und durch ein Sieb streichen, damit keine Kerne mehr drin sind."
+      },
+      {
+        "titel": "Crumble",
+        "text": "Butterkekse und Haselnüsse im Mörser grob zerstoßen."
+      },
+      {
+        "titel": "Anrichten",
+        "text": "Mit einem Löffel Nocken von der Mousse abstechen, Himbeersauce darüber geben und mit dem Crumble bestreuen."
+      }
+    ],
+    "tipp": "Den Löffel vor jeder Nocke kurz in heißes Wasser tauchen, dann gleitet er durch die Mousse und die Nocken werden richtig schön glatt."
   }
 ]
