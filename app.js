@@ -324,7 +324,8 @@ function seiteImpressum() {
 /* ---------- Statistik mit Umami (ohne Cookies) ---------- */
 let statistikBereit = false;
 function statistikLaden() {
-  const id = (EINST.umami_id || "").trim();
+  // Feste ID von Leos Umami-Konto; ein Eintrag in Pages CMS hat Vorrang
+  const id = (EINST.umami_id || "2efd5073-cc77-4f4e-8a9c-971fdd08368c").trim();
   if (!id) return;
   const sc = document.createElement("script");
   sc.src = "https://cloud.umami.is/script.js";
