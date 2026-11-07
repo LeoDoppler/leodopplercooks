@@ -2203,5 +2203,49 @@
       }
     ],
     "tipp": "Optional: Am Ende den Ofen kurz auf höchste Stufe stellen, damit die Haut knuspriger wird."
+  },
+  {
+    "titel": "Martini Gans",
+    "teaser": "Martini Gans mit Rotkraut, Knödel, Maroni und Saft. Ganz Klassisch, aber sehr gut",
+    "datum": "2026-11-07",
+    "hauptkategorie": "Österreichische Klassiker",
+    "gang": "Hauptgerichte",
+    "protein": "Geflügel",
+    "zeitkategorie": "Über 60 Min",
+    "zeit": "4 Stunden",
+    "schwierigkeit": "Anspruchsvoll",
+    "portionen": "4",
+    "serie": "Austrian Classics in under 60 seconds",
+    "zutaten": [
+      {
+        "gruppe": "Gans",
+        "liste": [
+          "4kg beste Qualität Weidegans"
+        ]
+      }
+    ],
+    "schritte": [
+      {
+        "titel": "Gansl",
+        "text": "ca. 4kg Gans Trockentupfen, mit Honig-Thymian-Wasser einstreichen und mit Salz & Majoran würzen. Auf Wurzelgemüse, Äpfel & Kräuter betten und 2 Gläser Wasser dazugeben. Erst 1,5 Std. mit der Brustseite nach unten bei 150 °C braten, dann umdrehen und ca. 1 Std. bei 210 °C bräunen (insgesamt ca. 40 Min./kg)."
+      },
+      {
+        "titel": "Rotkraut",
+        "text": "Zwiebeln in Schweineschmalz anrösten, Rotkraut zugeben und mit Orangensaft & Rotwein ablöschen. Salz, Zucker & Zimtstange dazugeben und ca. 80 Min. köcheln lassen (soll bissfest bleiben!). Mit Honig abschmecken, frische Apfelstücke unterheben und mit Stärke binden."
+      },
+      {
+        "titel": "Knödel",
+        "text": "700 g gekochte, mehlige Kartoffeln stampfen und mit 1 kleinen Ei, 150–170 g Kartoffelstärke & Muskat verkneten. Knödel formen und in reichlich Salzwasser kochen, bis sie an der Oberfläche schwimmen."
+      },
+      {
+        "titel": "Maroni",
+        "text": "Vorgekochte Maroni in Butter anbraten, mit Orangensaft ablöschen und mit Honig glasieren.\n"
+      },
+      {
+        "titel": "Sauce",
+        "text": "Das Gemüse vom Bratenrückstand der Gans trennen und beiseitestellen. Die obere Fettschicht abschöpfen – keinesfalls wegwerfen, sondern für andere Rezepte aufbewahren! Den restlichen Bratensaft aufkochen, kalte Butter und etwas vom gekochten Gemüse dazugeben. Fein aufmixen und abschmecken."
+      }
+    ],
+    "tipp": "Rotkraut darf nicht zerkocht werden. Eher gröber schneiden als zu fein."
   }
 ]
