@@ -2249,6 +2249,23 @@
           "50g Heidelbeermarmelade",
           "Salz, Pfeffer"
         ]
+      },
+      {
+        "gruppe": "Kartoffelknödel",
+        "liste": [
+          "1kg mehlige Kartoffel",
+          "1 Ei",
+          "180g Kartoffelstärke",
+          "Muskatnuss",
+          "Salz, Pfeffer"
+        ]
+      },
+      {
+        "gruppe": "Sauce",
+        "liste": [
+          "50g Kalte Butter",
+          "200ml Geflügelfond"
+        ]
       }
     ],
     "schritte": [
