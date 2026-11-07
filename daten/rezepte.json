@@ -2227,7 +2227,16 @@
           "Salz, Pfeffer"
         ]
       },
-      {}
+      {
+        "gruppe": "Maroni",
+        "liste": [
+          "200g Vorgekochte Maroni",
+          "50g Butter",
+          "50g Honig",
+          "150ml Orangensaft",
+          "Salz, Pfeffer"
+        ]
+      }
     ],
     "schritte": [
       {
