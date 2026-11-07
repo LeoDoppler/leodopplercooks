@@ -2236,6 +2236,19 @@
           "150ml Orangensaft",
           "Salz, Pfeffer"
         ]
+      },
+      {
+        "gruppe": "Rotkraut",
+        "liste": [
+          "1 Kopf Rotkraut",
+          "50g Honig",
+          "50g Zucker",
+          "1 Stange Zimt",
+          "150ml Orangensaft",
+          "150ml Rotwein",
+          "50g Heidelbeermarmelade",
+          "Salz, Pfeffer"
+        ]
       }
     ],
     "schritte": [
