@@ -2293,5 +2293,35 @@
       }
     ],
     "tipp": "Rotkraut darf nicht zerkocht werden. Eher gröber schneiden als zu fein."
+  },
+  {
+    "titel": "Reisfleisch",
+    "teaser": "Saftiges Reisfleisch",
+    "datum": "2026-11-12",
+    "hauptkategorie": "Österreichische Klassiker",
+    "gang": "Hauptgerichte",
+    "protein": "Schwein",
+    "zeitkategorie": "30–60 Min",
+    "zeit": "45 Minuten",
+    "schwierigkeit": "Einfach",
+    "portionen": "4",
+    "serie": "Austrian Classics",
+    "zutaten": [
+      {
+        "gruppe": "Reisfleisch",
+        "liste": [
+          "700g Kalbsschulter / Schlögel",
+          "20g Mehl",
+          "20g Butterschmalz oder Schweineschmalz",
+          "2 Zwiebeln",
+          "2 EL Edelsüßes Paprikapulver",
+          "0,5L Suppe",
+          "2 Knoblauchzehen",
+          "350g Reis",
+          "Parmesan zum anrichten",
+          "30g Sauerrahm oder Creme Fraiche"
+        ]
+      }
+    ]
   }
 ]
