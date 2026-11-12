@@ -2298,6 +2298,8 @@
     "titel": "Reisfleisch",
     "teaser": "Saftiges Reisfleisch",
     "datum": "2026-11-12",
+    "bild": "/bilder/Bildschirmfoto 2026-11-12 um 19.47.14.png",
+    "instagram": "https://www.instagram.com/p/Dfm-jPioFyI/",
     "hauptkategorie": "Österreichische Klassiker",
     "gang": "Hauptgerichte",
     "protein": "Schwein",
@@ -2322,6 +2324,13 @@
           "30g Sauerrahm oder Creme Fraiche"
         ]
       }
-    ]
+    ],
+    "schritte": [
+      {
+        "titel": "Reisfleisch",
+        "text": "Schweineschulter in grobe Würfel schneiden, Salzen unf mehlieren. Danach anrösten und wenn sie goldbraun sind herausnehmen.\n\nZwiebeln und Paprika schneiden in den Topf geben und Edelsüßes paprikapulver dazu. Direkt mit Suppe aufgießen. Ein wenig einkochen lassen und pürieren. Einwenig von der Soße abschöpfen, mit Sauerrahm oder Creme Fraiche vermischen, damit man es zum anrichten verwenden kann. Fleisch wieder hinzufügen und den Reis. Jetzt circa 15-20 minuten kochen lassen bis der Reis durch ist, aber das Fleisch nicht trocken wird. Petersilie dazu.\n\nAnrichten und Parmesan darüber reiben"
+      }
+    ],
+    "tipp": "Etwas flüssigkeit aufbewaren und mit Sauerrahm oder Creme Fraiche abschmecken!"
   }
 ]
