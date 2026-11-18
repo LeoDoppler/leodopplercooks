@@ -2332,5 +2332,30 @@
       }
     ],
     "tipp": "Etwas flüssigkeit aufbewaren und mit Sauerrahm oder Creme Fraiche abschmecken!"
+  },
+  {
+    "titel": "Grießkoch",
+    "teaser": "Kindheitsklassiker",
+    "datum": "2026-11-18",
+    "hauptkategorie": "Österreichische Klassiker",
+    "gang": "Desserts & Mehlspeisen",
+    "protein": "Vegetarisch",
+    "zeitkategorie": "Unter 30 Min",
+    "zeit": "10-15 Min",
+    "schwierigkeit": "Einfach",
+    "portionen": "2",
+    "serie": "Austrian Classics in under 60 seconds",
+    "zutaten": [
+      {
+        "gruppe": "Grießkoch"
+      }
+    ],
+    "schritte": [
+      {
+        "titel": "Grießkoch",
+        "text": "500ml Milch\n100g Grieß\n30g Butter\n1 EL Vanille\nSalz\n10g Kakao"
+      }
+    ],
+    "tipp": "Kalte Butter am ende in die Mitte des Tellers setzen"
   }
 ]
